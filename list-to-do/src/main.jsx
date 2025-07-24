@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Diablaso } from './Coño';
+
+import "./styles.css";
 
 
-function App() {
-    return (<h1>Hola cabros</h1>)
-}
 
 ReactDOM.createRoot( document.getElementById('root')).render(
     <React.StrictMode>
-        <App></App>
+        <Diablaso/>
     </React.StrictMode>
 )
